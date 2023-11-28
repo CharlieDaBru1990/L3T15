@@ -1,0 +1,19 @@
+username: cgprins@gmail.com
+Role: Owner
+password: 12345
+
+username: john123@gmail.com
+Role: Employee
+password: 12345
+
+username: kyle123@gmail.com
+Role: Employee
+password: 12345
+
+username: heather123@gmail.com
+Role: Admin
+password: 12345
+
+username: buddy123@gmail.com
+Role: Employee
+password: 12345

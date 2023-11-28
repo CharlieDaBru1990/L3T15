@@ -1,0 +1,19 @@
+// The TaskForm component is a functional component defined using the arrow function syntax.
+// It takes several props as input, including showTaskForm, setShowTaskForm, project, task, and reloadData.
+
+// Inside the component, there are several state variables defined using the useState hook.
+// These include selectedTab, email, file, and images. The selectedTab state variable is used to keep track of the active tab
+// in the Tabs component. The email state variable is used to store the email of the assignee.
+// The file state variable is used to store the uploaded file for attachments.
+// The images state variable is used to store the list of task attachments.
+
+// The component also uses the useSelector hook to access the user object from the Redux store.
+// The useDispatch hook is used to dispatch actions to the Redux store.
+
+// The component defines several functions, including onFinish, validateEmail, uploadImage, and deleteImage.
+// These functions handle form submission, email validation, image uploading, and image deletion, respectively.
+
+// The component renders a Modal component from Ant Design, which displays the task form. Inside the Modal,
+// there is a Tabs component with two tab panes: "Task Details" and "Attachments". The "Task Details" tab pane contains
+// a Form component with input fields for task name, description, and assignee. The "Attachments" tab pane
+// displays the list of task attachments and provides functionality for uploading new attachments.
